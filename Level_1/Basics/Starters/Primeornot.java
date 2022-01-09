@@ -51,7 +51,7 @@ int count = 0;
         }
         }
         
-        if ( count == 0){
+        if ( count == 0 && n != 1){
             System.out.println("prime")   ; 
             }
             else {
