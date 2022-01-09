@@ -5,7 +5,7 @@ public class Main{
         Scanner scn = new Scanner(System.in);
         int low = scn.nextInt();
         int high = scn.nextInt();
-        // printing all the primes between low and high incliding them 
+        // printing all the primes between low and high including them
         
         for (int i=low;i<=high;i++){
             int count=0;
