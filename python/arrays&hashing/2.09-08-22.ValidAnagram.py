@@ -17,3 +17,20 @@ class Solution:
             if countS[c] != countT.get(c,0):
                 return False
         return True;
+
+    
+    
+    ### way 2 
+    
+    #sort the strings and compare
+    
+    code:
+        
+        return sorted(s) = sorted(t) 
+    
+    way 3:
+        
+        return Counter(s) = Counter(t)
+    
+    
+    
