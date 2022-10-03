@@ -9,6 +9,7 @@ class Solution:
         
         def bfs(r,c):
             q = collections.deque()
+            
             visit.add((r,c))
             q.append((r,c))
             while q:
