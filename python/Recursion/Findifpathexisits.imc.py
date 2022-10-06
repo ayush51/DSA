@@ -11,3 +11,6 @@ def canreach (c, x1, x2, y1, y2)
 check = helper (c, x1, y1, x2, y2)
 if check: return Yes
 return No
+
+
+//imc
