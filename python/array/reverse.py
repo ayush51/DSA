@@ -24,4 +24,20 @@ def reverse(arr:list[int], l, r):
 
 reverse([1,2,3,4,5], 0, 4)
 
+----using single variable---
+
+def reverse(arr:list[int], l):
+    n = len(arr)
+    if l >= n//2:
+        return
+    arr[l], arr[n-l-1] = arr[n-l-1], arr[l]
+    
+    reverse(arr, l+1)
+    print(arr)
+    
+
+reverse([1,2,3,4,5], 0)
+
+
+
 
