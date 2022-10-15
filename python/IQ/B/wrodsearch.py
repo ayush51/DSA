@@ -30,7 +30,7 @@ class Solution:
 
 SUCCESS: WITHOUT SET
     
-    class Solution:
+   class Solution:
     def exist(self, board: List[List[str]], word: str) -> bool:
         
             
@@ -45,8 +45,11 @@ SUCCESS: WITHOUT SET
                 return True
             ###check validity
             if (0<=row<len(board)) and (0<= col < len(board[0])) and board[row][col] !='#' and board[row][col] == word[0]:
-                placeholder = board[row][col]
-                board[row][col]="#"
+                placeholder = board[row][col]  
+                
+                #in case the word is not found then you have to go back and reset the hashes to start looking for another path
+                
+                board[row][col]="#"   
                 for row_inc, col_inc in [(0,1), (0,-1), (1,0), (-1,0)]:
                     if self.dfs(board, row+row_inc, col+col_inc, word[1:]):
                         return True
