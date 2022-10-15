@@ -42,7 +42,7 @@ SUCCESS: WITHOUT SET
         return False
     def dfs(self, board, row, col, word):
             if not word:
-                return True
+                return True  #as soon as word is empty thta means we found the word as we are popping in logic
             ###check validity
             if (0<=row<len(board)) and (0<= col < len(board[0])) and board[row][col] !='#' and board[row][col] == word[0]:
                 placeholder = board[row][col]  
