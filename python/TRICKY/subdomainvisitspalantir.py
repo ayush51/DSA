@@ -18,5 +18,8 @@ def subDomainVisits(cpdomains):
     return {f"{count} {domain}" for domain, count in counts.items()}
 
 print(subDomainVisits(input))
+
+#TC: 0(n)
+#SC: O(n)
             
             
