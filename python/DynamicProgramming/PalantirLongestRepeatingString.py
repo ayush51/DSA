@@ -30,3 +30,5 @@ def longestRepeating(a,b):
     return a[idx:idx+maxL]
 
 print(longestRepeating(User1, User2))
+
+#TC, SC: 0[N*M]
