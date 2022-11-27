@@ -29,7 +29,7 @@ class Solution:
         
         while q:
             for i in range(len(q)):
-                r, c = q.popleft()
+                r, c =  q.popleft()
                 grid[r][c] = dist
                 addRooms(r+1,c)
                 addRooms(r-1,c)
