@@ -13,7 +13,8 @@ class Solution:
             if (r in range(rows) and
                 c in range(cols) and
                 (r,c) not in visit and
-                grid[r][c] != -1
+                gri
+      d[r][c] != -1
                 ):
                 visit.add((r,c))
         
