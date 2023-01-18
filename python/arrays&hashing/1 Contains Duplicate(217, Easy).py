@@ -7,3 +7,7 @@ class Solution:
                 return True
             hashset.add(n)
         return False      
+
+    
+    #tc o(n)
+    #sc o(n)
