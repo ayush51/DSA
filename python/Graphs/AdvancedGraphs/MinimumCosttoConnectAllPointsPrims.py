@@ -8,7 +8,7 @@ class Solution:
         
         print(adj)
         
-        for i in range(N):
+        for i in range(N):##
             x1, y1 = points[i]
             for j in range(i+1, N):
                 x2, y2 = points[j]
