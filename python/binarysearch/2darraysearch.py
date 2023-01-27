@@ -7,9 +7,6 @@ class Solution:
         cols = len(matrix[0])
         
         top, bottom = 0, rows - 1
-        
-        
-        
         while top <= bottom:
             mid = (top + bottom)//2
             if target > matrix[mid][-1]:
